@@ -5,7 +5,7 @@ import 'package:t_store/common/widgets/login_signup/social_buttons.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 
-import 'widgets/signup_form.dart';
+import 'widgets/widgets/signup_form.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({Key? key}) : super(key: key);
