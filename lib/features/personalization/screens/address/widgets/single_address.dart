@@ -7,9 +7,9 @@ import 'package:t_store/utils/helpers/helper_functions.dart';
 
 class TSingleAddress extends StatelessWidget {
   const TSingleAddress({
-    Key? key,
+    super.key,
     required this.selectedAddress,
-  }) : super(key: key);
+  });
 
   final bool selectedAddress;
 

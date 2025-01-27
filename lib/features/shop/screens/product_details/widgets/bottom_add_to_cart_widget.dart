@@ -6,7 +6,7 @@ import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
 
 class TBottomAddToCart extends StatelessWidget {
-  const TBottomAddToCart({Key? key}) : super(key: key);
+  const TBottomAddToCart({super.key});
 
   @override
   Widget build(BuildContext context) {

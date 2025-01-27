@@ -3,7 +3,7 @@ import 'package:t_store/common/widgets/texts/section_heading.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
 class TBillingAddressSection extends StatelessWidget {
-  const TBillingAddressSection({Key? key}) : super(key: key);
+  const TBillingAddressSection({super.key});
 
   @override
   Widget build(BuildContext context) {

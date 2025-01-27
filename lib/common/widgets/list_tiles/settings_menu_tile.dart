@@ -3,13 +3,13 @@ import 'package:t_store/utils/constants/colors.dart';
 
 class TSettingsMenuTile extends StatelessWidget {
   const TSettingsMenuTile({
-    Key? key,
+    super.key,
     required this.icon,
     required this.title,
     required this.subTitle,
     this.trailing,
     this.onTap,
-  }) : super(key: key);
+  });
 
   final IconData icon;
   final String title, subTitle;

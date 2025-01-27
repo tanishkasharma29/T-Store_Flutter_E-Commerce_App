@@ -6,7 +6,7 @@ import 'package:t_store/features/shop/screens/product_reviews/widgets/user_revie
 import 'package:t_store/utils/constants/sizes.dart';
 
 class ProductReviewScreen extends StatelessWidget {
-  const ProductReviewScreen({Key? key}) : super(key: key);
+  const ProductReviewScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -8,7 +8,7 @@ import 'package:t_store/features/shop/screens/brand/brand_products.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
 class AllBrandsScreen extends StatelessWidget {
-  const AllBrandsScreen({Key? key}) : super(key: key);
+  const AllBrandsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

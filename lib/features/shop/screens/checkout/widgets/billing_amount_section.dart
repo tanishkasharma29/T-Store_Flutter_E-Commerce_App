@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
 class TBillingAmountSection extends StatelessWidget {
-  const TBillingAmountSection({Key? key}) : super(key: key);
+  const TBillingAmountSection({super.key});
 
   @override
   Widget build(BuildContext context) {

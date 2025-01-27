@@ -7,7 +7,7 @@ import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
 
 class TBillingPaymentSection extends StatelessWidget {
-  const TBillingPaymentSection({Key? key}) : super(key: key);
+  const TBillingPaymentSection({super.key});
 
   @override
   Widget build(BuildContext context) {

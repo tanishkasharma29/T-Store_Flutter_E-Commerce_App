@@ -11,7 +11,7 @@ import 'package:t_store/utils/constants/text_strings.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
 
 class VerifyEmailScreen extends StatelessWidget {
-  const VerifyEmailScreen({Key? key, this.email}) : super(key: key);
+  const VerifyEmailScreen({super.key, this.email});
 
   final String? email;
 

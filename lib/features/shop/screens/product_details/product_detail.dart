@@ -12,7 +12,7 @@ import 'package:t_store/features/shop/screens/product_reviews/product_review.dar
 import 'package:t_store/utils/constants/sizes.dart';
 
 class ProductDetailScreen extends StatelessWidget {
-  const ProductDetailScreen({Key? key}) : super(key: key);
+  const ProductDetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

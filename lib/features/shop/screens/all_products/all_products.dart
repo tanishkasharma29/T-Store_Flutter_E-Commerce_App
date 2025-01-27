@@ -4,7 +4,7 @@ import 'package:t_store/common/widgets/product/sortable/sortable_products.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
 class AllProducts extends StatelessWidget {
-  const AllProducts({Key? key}) : super(key: key);
+  const AllProducts({super.key});
 
   @override
   Widget build(BuildContext context) {

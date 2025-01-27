@@ -9,7 +9,7 @@ import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
 
 class TProductAttributes extends StatelessWidget {
-  const TProductAttributes({Key? key}) : super(key: key);
+  const TProductAttributes({super.key});
 
   @override
   Widget build(BuildContext context) {

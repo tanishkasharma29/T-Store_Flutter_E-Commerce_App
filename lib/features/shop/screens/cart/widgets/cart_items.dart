@@ -6,9 +6,9 @@ import 'package:t_store/utils/constants/sizes.dart';
 
 class TCartItems extends StatelessWidget {
   const TCartItems({
-    Key? key,
+    super.key,
     this.showAddRemoveButton = true,
-  }) : super(key: key);
+  });
 
   final bool showAddRemoveButton;
 

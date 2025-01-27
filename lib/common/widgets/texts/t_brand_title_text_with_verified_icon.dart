@@ -7,14 +7,14 @@ import 'package:t_store/utils/constants/sizes.dart';
 
 class TBrandTitleWithVerifiedIcon extends StatelessWidget {
   const TBrandTitleWithVerifiedIcon({
-    Key? key,
+    super.key,
     required this.title,
     this.maxLines = 1,
     this.textColor,
     this.iconColor = TColors.primary,
     this.textAlign = TextAlign.center,
     this.brandTextSize = TextSizes.small,
-  }) : super(key: key);
+  });
 
   final String title;
   final int maxLines;

@@ -7,7 +7,7 @@ import 'package:t_store/common/widgets/product/product_cards/product_card_vertic
 import 'package:t_store/utils/constants/sizes.dart';
 
 class FavouriteScreen extends StatelessWidget {
-  const FavouriteScreen({Key? key}) : super(key: key);
+  const FavouriteScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
