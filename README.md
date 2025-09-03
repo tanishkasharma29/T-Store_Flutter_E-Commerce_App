@@ -40,9 +40,6 @@ This project is inspired by professional UI kits and e-commerce app design stand
 
 ## 📂 Project Structure
 ```bash
-##  Project Structure
-
-```bash
 .vscode/
 android/
 ios/
