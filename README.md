@@ -39,7 +39,7 @@ This project is inspired by professional UI kits and e-commerce app design stand
 ---
 
 ## 📂 Project Structure
-
+```bash
 lib/
 ├── main.dart           # Entry point
 ├── config/             # App theme, constants
@@ -49,7 +49,7 @@ lib/
 ├── widgets/            # Reusable UI components
 assets/
 └── screenshots/        # Emulator screenshots
-
+```
 
 ---
 
