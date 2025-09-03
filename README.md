@@ -19,12 +19,24 @@ This project is inspired by professional UI kits and e-commerce app design stand
 
 ---
 
-## 📸 Screenshots
+## 📸 App Screenshots
 
-| Home Screen | Product Details | Cart Screen | Checkout Flow |
-|-------------|----------------|-------------|---------------|
-| ![Home Screen](assets/screenshots/home.png) | ![Product Details](assets/screenshots/product.png) | ![Cart](assets/screenshots/cart.png) | ![Checkout](assets/screenshots/checkout.png) |
+Here are some emulator screenshots of **T-Store Flutter E-Commerce App**:
 
+### 🔑 Authentication
+| Login | Register |
+|-------|----------|
+| <img src="screenshots/login.png" width="250"> | <img src="screenshots/register.png" width="250"> |
+
+### 🏬 Store & Categories
+| Store | Brands | Category (Sports) |
+|-------|--------|-------------------|
+| <img src="screenshots/store.png" width="250"> | <img src="screenshots/brands.png" width="250"> | <img src="screenshots/categories.png" width="250"> |
+
+### 🛍 Shopping
+| Product Details | Wishlist | Cart |
+|-----------------|----------|------|
+| <img src="screenshots/product_detail.png" width="250"> | <img src="screenshots/wishlist.png" width="250"> | <img src="screenshots/cart.png" width="250"> |
 
 ---
 
