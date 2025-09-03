@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:t_store/data/repositories/authentication/authentication_repository.dart';
+import 'package:t_store/data/repositories/authentication/authentication/authentication_repository.dart';
 import 'package:t_store/utils/constants/image_strings.dart';
 import 'package:t_store/utils/helpers/network_manager.dart';
 import 'package:t_store/utils/popups/full_screen_loader.dart';
@@ -50,7 +50,7 @@ class LoginController extends GetxController {
       }
 
       // Login user using Email & Password Authentication
-      final userCredentails = await AuthenticationRepository.instance
+      await AuthenticationRepository.instance
           .loginWithEmailAndPassword(email.text.trim(), password.text.trim());
 
       // Remove Loader

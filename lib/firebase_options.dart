@@ -73,6 +73,6 @@ class DefaultFirebaseOptions {
         '417461636253-g93tr8jsg23sd358qsvbpr4t0fhsna42.apps.googleusercontent.com',
     iosClientId:
         '417461636253-t4qal1l6b0jcl0hv526fvk5no1c89m20.apps.googleusercontent.com',
-    iosBundleId: 'com.example.tStore',
+    iosBundleId: 'com.tanishka.tStore',
   );
 }
