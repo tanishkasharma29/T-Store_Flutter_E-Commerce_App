@@ -25,7 +25,6 @@ This project is inspired by professional UI kits and e-commerce app design stand
 |-------------|----------------|-------------|---------------|
 | ![Home Screen](assets/screenshots/home.png) | ![Product Details](assets/screenshots/product.png) | ![Cart](assets/screenshots/cart.png) | ![Checkout](assets/screenshots/checkout.png) |
 
-*(Add your emulator screenshots in `assets/screenshots/` and update the filenames above.)*
 
 ---
 
