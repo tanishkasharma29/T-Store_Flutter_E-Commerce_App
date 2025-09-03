@@ -40,15 +40,28 @@ This project is inspired by professional UI kits and e-commerce app design stand
 
 ## 📂 Project Structure
 ```bash
+##  Project Structure
+
+```bash
+.vscode/
+android/
+ios/
 lib/
-├── main.dart           # Entry point
-├── config/             # App theme, constants
-├── models/             # Data models (User, Product, CartItem)
-├── screens/            # UI screens (Home, Cart, Checkout, Profile, etc.)
-├── services/           # Firebase services (Auth, Firestore, Storage)
-├── widgets/            # Reusable UI components
+├── main.dart              # App entry point
+├── config/                # Theme, constants, app-level configurations
+├── models/                # Data classes (e.g., Product, CartItem, User)
+├── services/              # Backend services (e.g., Firebase Auth, Firestore, Storage)
+├── screens/               # UI screens (Onboarding, Home, ProductDetail, Cart, Checkout, Profile)
+├── widgets/               # Reusable UI components (buttons, cards, list items)
+└── controllers/           # State management (e.g., GetX controllers)
 assets/
-└── screenshots/        # Emulator screenshots
+├── images/                # Static images (logos, icons, placeholders)
+└── fonts/                 # Custom font files
+pubspec.yaml
+README.md
+firebase.json
+splash.yaml
+
 ```
 
 ---
